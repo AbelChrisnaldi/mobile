@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = "go-app-fiber"
-        DOCKER_IMAGE = "wizzidevs/go-app-fiber"
+        DOCKER_IMAGE = "abelchris/go-app-fiber"
         DOCKER_TAG = "latest"
         DOCKER_CREDENTIALS = "dockerhub-credentials"
         GO_VERSION = "1.25.1"
